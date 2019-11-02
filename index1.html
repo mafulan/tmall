@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天猫tmall</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/self.css">
+    <script src="js/mover.js"></script>
+    <script src="js/myjs.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="velocity.min.js"></script>
+</head>
+<body>
+    <div class="parent">
+      <header class="clearfix">
+        <a href=""><img src="img/dingduan.JPG" class="first"></a>
+        <div class="head">
+          <p>喵，欢迎来天猫</p>
+          <a href="#" class="login">请登录</a>
+          <a href="#" class="regist">免费注册</a>
+
+          <ul class="nav clearfix">
+            <li class="dropdown" >
+               <a href="#">我的淘宝</a>
+               <div class="dropdown-content">
+                <a href="#">已买到的宝贝</a>
+                <a href="#">已卖出的宝贝</a>
+               </div>
+            </li>
+            <li><a class="a1" href="#">购物车</a></li>
+
+            <li class="dropdown">
+              <a href="#">收藏夹</a>
+              <div class="dropdown-content">
+                <a href="#">收藏的宝贝</a>
+                <a href="#">收藏的店铺</a>
+              </div>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#">手机版</a>
+              <div class="dropdown-content">
+                <a href="#">
+                    <img src="img/wechat.jpg" alt="">
+                </a>
+              </div>
+            </li>
+            <li id="li5"><a class="a1" href="#">淘宝网</a></li>
+
+            <li class="dropdown">
+              <a class="a1" href="#">商家支持</a>
+              <div class="dropdown-content1 clearfix">
+                <h4>商家：</h4>
+                <a class="a1" href="#">商家中心</a>
+                <a class="a2" href="#">天猫规则</a>
+                <a class="a1" href="#">商家入驻</a>
+                <a class="a2" href="#">运营服务</a>
+                <a class="a1" href="#">商家品控</a>
+                <a class="a2" href="#">商家工具</a>
+                <a class="a1" href="#">天猫智库</a>
+                <a class="a2" href="#">喵言喵语</a>
+                <!-- <p>虚线</p> -->
+                <h4 class="h4">帮助：</h4>
+                <a class="a3" href="#">帮助中心</a>
+                <a class="a4" href="#">问商友</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a class="a1" href="#">网站导航</a>
+              <div class="dropdown-content2 clearfix">
+                <div class="left">
+                  <h3>热点推荐 Hot</h3>
+                  <a href="#">天猫超市</a>
+                  <a href="#">喵鲜生</a>
+                  <a href="#">科技新品</a>
+                  <a href="#">女装新品</a>
+                  <a href="#">酷玩街</a>
+                  <a href="#">内衣新品</a>
+                  <a href="#">试美妆</a>
+                  <a href="#">运动新品</a>
+                  <a href="#">时尚先生</a>
+                  <a href="#">精明妈咪</a>
+                  <a href="#">吃乐会</a>
+                  <a href="#">企业采购</a>
+                  <a href="#">会员积分</a>
+                  <a href="#">天猫国际</a>
+                  <a href="#">品质频道</a>
+                </div>
+                <div class="center">
+                    <h3>行业市场 Market</h3>
+                    <a href="#">美妆</a>
+                    <a href="#">电器</a>
+                    <a href="#">女装</a>
+                    <a href="#">男装</a>
+                    <a href="#">女鞋</a>
+                    <a href="#">男鞋</a>
+                    <a href="#">内衣</a>
+                    <a href="#">箱包</a>
+                    <a href="#">运动</a>
+                    <a href="#">母婴</a>
+                    <a href="#">家装</a>
+                    <a href="#">医药</a>
+                    <a href="#">食品</a>
+                    <a href="#">配饰</a>
+                    <a href="#">汽车</a>
+                </div>
+                <div class="right">
+                    <h3>服务指南 Help</h3>
+                    <a href="#">帮助中心</a>
+                    <a href="#">品质保障</a>
+                    <a href="#">特色服务</a>
+                    <a href="#">7天退换货</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+        <div class="logo">
+          <!-- <img src="img/logo.jpg" alt=""> -->
+          <div id="box1">
+            <!-- 天猫轮播图 -->
+          </div>
+          <input class="ote" type="text"  placeholder="搜索 天猫 商品\品牌\店铺">
+          <input class="obtn" type="submit" value="搜索">
+          <ul class="clearfix">
+            <li><a href="#">四件套 |</a></li>
+            <li><a href="#">客厅灯 |</a></li>
+            <li><a href="#">仿真花 |</a></li>
+            <li><a class="a1" href="#">牛奶 |</a></li>
+            <li><a href="#">运动鞋 |</a></li>
+            <li><a href="#">针织衫 |</a></li>
+            <li><a href="#">手机 |</a></li>
+            <li><a class="a1" href="#">口红 |</a></li>
+            <li><a href="#">洗发水 |</a></li>
+          </ul>
+        </div>
+        <div class="daohang clearfix">
+          <div class="first">
+            <a class="a0" href="#">商品分类</a>
+            <div class="aa0 clearfix">
+              <a href="#">女装\内衣</a>
+              <a href="#">男装\户外运动</a>
+              <a href="#">女鞋\男鞋\箱包</a>
+              <a href="#">美妆\个人护理</a>
+              <a href="#">腕表\眼镜\珠宝饰品</a>
+              <a href="#">手机\数码\电脑办公</a>
+              <a href="#">母婴玩具</a>
+              <a href="#">零食\茶酒\进口食品</a>
+              <a href="#">生鲜水果</a>
+              <a href="#">大家电\生活电器</a>
+              <a href="#">家具建材</a>
+              <a href="#">汽车\配件\用品</a>
+              <a href="#">家纺\家饰\鲜花</a>
+              <a href="#">医药保健</a>
+              <a href="#">厨具\收纳\宠物</a>
+              <a href="#">图书音像</a>
+            </div>
+        </div>
+          <div  class="second">
+              <a class="a2" href="#">双11预售</a>
+              <div class="aa2 clearfix">
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">大牌女装</a></li>
+                <li><a href="#">美妆洗护</a></li>
+                <li><a href="#">母婴好货</a></li>
+                <li><a href="#">食品生鲜</a></li>
+                <li><a href="#">数码家电</a></li>
+                <li><a href="#">家装家具</a></li>
+                <li><a href="#">全球尖货</a></li>
+                <li><a href="#">爆款手机</a></li>
+                <li><a href="#">汽车用品</a></li>
+              
+              </div>
+          </div>
+
+          <a class="a3" href="#">天猫超市</a>
+          <a class="a4" href="#">天猫国际</a>
+          <a class="a1" href="#">天猫会员</a>
+          <a class="a1" href="#">电器城</a>
+          <a class="a1" href="#">喵鲜生</a>
+          <a class="a1" href="#">医药馆</a>
+          <a class="a1" href="#">营业厅</a>
+          <a class="a1" href="#">魅力惠</a>
+          <a class="a1" href="#">肥猪旅行</a>
+          <a class="a1" href="#">苏宁易购</a>
+        </div>
+        <div id="box2">
+
+        </div>
+      </header>
+
+      <section class="clearfix">
+          <div class="part1 clearfix">
+            <div class="div1 clearfix" >
+              <h3>品牌闪购 BRAND SALE</h3>
+              <a href="#">></a>
+              <img src="img/part1_01.JPG" alt="">
+            </div>
+            <div class="div2" >
+               <h3>聚名品 LUXURY CHANNEL</h3>
+               <a href="#">></a> 
+               <img src="img/part1_02.JPG" alt="">
+            </div>
+            <div class="div3" >
+                <h3>品牌活动 BRAND ACTIVITY</h3>
+                <a href="#">></a>
+                <img src="img/part1_03.JPG" alt="">
+            </div>
+          </div>
+          <div class="part2 clearfix">
+            <div class="contentimg contentimg1">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_01.JPG" alt="">                    
+                     <span class="mask">优惠券￥50</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg2">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_02.JPG" alt="">                    
+                     <span class="mask">优惠券￥100</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg3">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_03.JPG" alt="">                    
+                     <span class="mask">蓝臻</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg4">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_04.JPG" alt="">                    
+                     <span class="mask">优惠券￥120</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg5">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_05.JPG" alt="">                    
+                     <span class="mask">优惠券￥960</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg6">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_06.JPG" alt="">                    
+                     <span class="mask">优惠券￥200</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg7">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_07.JPG" alt="">                    
+                     <span class="mask">优惠券￥40</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg8">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_08.JPG" alt="">                    
+                     <span class="mask">LEAGUE</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg9">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_09.JPG" alt="">                    
+                     <span class="mask">优惠券￥10</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg10">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_10.JPG" alt="">                    
+                     <span class="mask">优惠券￥200</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg11">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_11.JPG" alt="">                    
+                     <span class="mask">scount</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg12">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_12.JPG" alt="">                    
+                     <span class="mask">优惠券￥150</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg13">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_13.JPG" alt="">                    
+                     <span class="mask">优惠券￥60</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg14">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_14.JPG" alt="">                    
+                     <span class="mask">帕尔玛之水</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg15">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_15.JPG" alt="">                    
+                     <span class="mask">AMERICN</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg16">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_16.JPG" alt="">                    
+                     <span class="mask">双心</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg17">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_17.JPG" alt="">                    
+                     <span class="mask">HOT TOPIC</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg18">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_18.JPG" alt="">                    
+                     <span class="mask">优惠券￥960</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg19">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_19.JPG" alt="">                    
+                     <span class="mask">大卫尼斯</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg20">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_20.JPG" alt="">                    
+                     <span class="mask">优惠券￥50</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg21">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_21.JPG" alt="">                    
+                     <span class="mask">优惠券￥150</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg22">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_22.JPG" alt="">                    
+                     <span class="mask">优惠券￥50</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg23">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_23.JPG" alt="">                    
+                     <span class="mask">优惠券￥50</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg24">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_24.JPG" alt="">                    
+                     <span class="mask">优惠券￥60</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg25">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_25.JPG" alt="">                    
+                     <span class="mask">STOKKE</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg26">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_26.JPG" alt="">                    
+                     <span class="mask">优惠券￥50</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg27">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_27.JPG" alt="">                    
+                     <span class="mask">MAXWELL</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg28">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_28.JPG" alt="">                    
+                     <span class="mask">优惠券￥40</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg29">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_29.JPG" alt="">                    
+                     <span class="mask">佳洁士</span>
+                  </a>
+              </span>
+            </div>
+            <div class="contentimg contentimg30">
+              <span class="img_content">
+                  <a href="#" target="view_frame">
+                     <img src="img/part2_30.JPG" alt="">                    
+                     
+                  </a>
+              </span>
+            </div>
+        </div>
+
+          <div class="part3 clearfix">
+              <p class="p1">天猫超市 TMALL.MART</p>
+              <a class="a1" href="#">
+                <img src="img/part3_01.JPG" alt="">
+                <img src="img/part3_011.JPG" alt="">
+              </a>
+              <div class="part3_box1 clearfix">
+                  <div class=" drop drop2">
+                      <a href="#">今日疯抢</a>
+                      <div class="dropbtn dropbtn2">
+                        <img src="img/part3_03.JPG" alt="">
+                      </div>
+                    </div>
+                  <div class=" drop drop1">
+                    <a href="#">量贩装</a>
+                    <div class="dropbtn dropbtn1">
+                      <img src="img/part3_02.JPG" alt="">
+                    </div>
+                  </div>
+              </div>
+            <a href="#" class="box3">
+                <img src="img/part3_04.JPG" alt="">
+                <p>斯郎纤麦无添加</p>
+                <p>饼干168g膳食纤维</p>
+                <p>￥12.9</p>
+            </a>
+            <a href="#" class="box4">
+              <img src="img/part3_05.JPG" alt="">
+              <p>恰恰每日坚果</p>
+              <p>饼干168g膳食纤维</p>
+              <p>￥89</p>
+          </a>
+          <a href="#" class="box5">
+            <img src="img/part3_06.JPG" alt="">
+            <p>恰恰每日坚果</p>
+            <p>饼干168g膳食纤维</p>
+            <p>￥89</p>
+        </a>
+        <a href="#" class="box6">
+          <img src="img/part3_07.JPG" alt="">
+          <p>恰恰每日坚果</p>
+          <p>饼干168g膳食纤维</p>
+          <p>￥29.9</p>
+      </a>
+      <a href="#" class="box7">
+        <img src="img/part3_08.JPG" alt="">
+        <p>恰恰每日坚果</p>
+        <p>饼干168g膳食纤维</p>
+        <p>￥88</p>
+    </a>
+    <a href="#" class="box8">
+      <img src="img/part3_09.JPG" alt="">
+      <p>恰恰每日坚果</p>
+      <p>饼干168g膳食纤维</p>
+      <p>￥55.9</p>
+  </a>
+
+</div>
+<div class="part4 clearfix">
+    <p>天猫国际TMALL.HK</p>
+    <a class="a1" href="#"><img src="img/part4_01.JPG" alt=""></a>
+    <a href="#"><img src="img/part4_02.JPG" alt=""></a>
+    <a href="#"><img src="img/part4_03.JPG" alt=""></a>
+    <a href="#"><img src="img/part4_04.JPG" alt=""></a>
+    <a class="a2" href="#"><img src="img/part4_05.JPG" alt=""></a>
+    <a class="a3" href="#"><img src="img/part4_06.JPG" alt=""></a>
+    <a href="#"><img src="img/part4_07.JPG" alt=""></a>
+    <a href="#"><img src="img/part4_08.JPG" alt=""></a>
+    <a href="#"><img src="img/part4_09.JPG" alt=""></a>
+    <a class="a4" href="#"><img src="img/part4_10.JPG" alt=""></a>
+</div>
+<img id="oImg1" src="img/part4_11.JPG" alt="">
+<div class="part5 clearfix">
+  <div></div>
+ <p>美丽人生 FESHION&BEAUTY</p>
+  <a class="a1" href="#"><img src="img/part5_01.JPG" alt=""></a>
+  <a class="a2" href="#"><img src="img/part5_011.JPG" alt=""></a>
+  <a class="a3" href="#"><img src="img/part5_02.JPG" alt=""></a>
+  <a class="a4" href="#"><img src="img/part5_03.JPG" alt=""></a>
+  <a class="a5" href="#"><img src="img/part5_04.JPG" alt=""></a>
+  <a class="a6" href="#"><img src="img/part5_05.JPG" alt=""></a>
+  <a class="a7" href="#"><img src="img/part5_06.JPG" alt=""></a>
+  <a class="a8" href="#"><img src="img/part5_07.JPG" alt=""></a>
+  <a class="a9" href="#"><img src="img/part5_08.JPG" alt=""></a>
+  <a class="a10" href="#"><img src="img/part5_09.JPG" alt=""></a>
+</div>  
+<div class="part6 clearfix">
+  <div></div>
+ <p>潮电酷玩 ELECTRONICSE</p>
+  <a class="a1" href="#"><img src="img/part6_01.JPG" alt=""></a>
+  <a class="a2" href="#"><img src="img/part6_011.JPG" alt=""></a>
+  <a class="a3" href="#"><img src="img/part6_02.JPG" alt=""></a>
+  <a class="a4" href="#"><img src="img/part6_03.JPG" alt=""></a>
+  <a class="a5" href="#"><img src="img/part6_04.JPG" alt=""></a>
+  <a class="a6" href="#"><img src="img/part6_05.JPG" alt=""></a>
+  <a class="a7" href="#"><img src="img/part6_06.JPG" alt=""></a>
+  <a class="a8" href="#"><img src="img/part6_07.JPG" alt=""></a>
+  <a class="a9" href="#"><img src="img/part6_08.JPG" alt=""></a>
+  <a class="a10" href="#"><img src="img/part6_09.JPG" alt=""></a>
+</div> 
+<img id="oImg1" src="img/part4_11.JPG" alt="">
+<div class="part7 clearfix">
+  <div></div>
+ <p>居家生活 GROCERY $HEALTH</p>
+  <a class="a1" href="#"><img src="img/part7_01.JPG" alt=""></a>
+  <a class="a2" href="#"><img src="img/part7_011.JPG" alt=""></a>
+  <a class="a3" href="#"><img src="img/part7_02.JPG" alt=""></a>
+  <a class="a4" href="#"><img src="img/part7_03.JPG" alt=""></a>
+  <a class="a5" href="#"><img src="img/part7_04.JPG" alt=""></a>
+  <a class="a6" href="#"><img src="img/part7_05.JPG" alt=""></a>
+  <a class="a7" href="#"><img src="img/part7_06.JPG" alt=""></a>
+  <a class="a8" href="#"><img src="img/part7_07.JPG" alt=""></a>
+  <a class="a9" href="#"><img src="img/part7_08.JPG" alt=""></a>
+  <a class="a10" href="#"><img src="img/part7_09.JPG" alt=""></a>
+</div>  
+<div class="part8 clearfix">
+  <div></div>
+ <p>爱巢打造 HOME</p>
+  <a class="a1" href="#"><img src="img/part8_01.JPG" alt=""></a>
+  <a class="a2" href="#"><img src="img/part8_011.JPG" alt=""></a>
+  <a class="a3" href="#"><img src="img/part8_02.JPG" alt=""></a>
+  <a class="a4" href="#"><img src="img/part8_03.JPG" alt=""></a>
+  <a class="a5" href="#"><img src="img/part8_04.JPG" alt=""></a>
+  <a class="a6" href="#"><img src="img/part8_05.JPG" alt=""></a>
+  <a class="a7" href="#"><img src="img/part8_06.JPG" alt=""></a>
+  <a class="a8" href="#"><img src="img/part8_07.JPG" alt=""></a>
+  <a class="a9" href="#"><img src="img/part8_08.JPG" alt=""></a>
+  <a class="a10" href="#"><img src="img/part8_09.JPG" alt=""></a>
+</div> 
+<img id="oImg1" src="img/part8_10.JPG" alt=""> 
+<div class="part9 clearfix">
+  <div></div>
+ <p>户外出行 OUTDOORS &AUTOMOTIVE</p>
+  <a class="a1" href="#"><img src="img/part9_01.JPG" alt=""></a>
+  <a class="a2" href="#"><img src="img/part9_011.JPG" alt=""></a>
+  <a class="a3" href="#"><img src="img/part9_02.JPG" alt=""></a>
+  <a class="a4" href="#"><img src="img/part9_03.JPG" alt=""></a>
+  <a class="a5" href="#"><img src="img/part9_04.JPG" alt=""></a>
+  <a class="a6" href="#"><img src="img/part9_05.JPG" alt=""></a>
+  <a class="a7" href="#"><img src="img/part9_06.JPG" alt=""></a>
+  <a class="a8" href="#"><img src="img/part9_07.JPG" alt=""></a>
+  <a class="a9" href="#"><img src="img/part9_08.JPG" alt=""></a>
+  <a class="a10" href="#"><img src="img/part9_09.JPG" alt=""></a>
+</div> 
+<div class="part10 clearfix">
+  <p>——猜你喜欢——</p>
+  <a href="#"><img src="img/part10_01.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_02.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_03.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_04.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_05.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_06.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_07.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_08.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_09.JPG" alt=""></a>
+  <a href="#"><img src="img/part10_10.JPG" alt=""></a>
+</div>
+<img class="tianmao" src="img/part10_11.JPG" alt="">
+</section>
+
+  <footer class="clearfix">
+    <div class="box1">
+      <p class="p1">优</p>
+      <p class="p2">品质保障</p>
+      <p class="p3">品质护航 购物无忧</p>
+    </div>
+    <div class="box2">
+      <p class="p1">七</p>
+      <p class="p2">七天无理由退换货</p>
+      <p class="p3">为您提供售后无忧保障</p>
+    </div>
+    <div class="box3">
+      <p class="p1">特</p>
+      <p class="p2">特色服务体验</p>
+      <p class="p3">为您呈现不一样的服务</p>
+    </div>
+    <div class="box4">
+      <p class="p1">帮</p>
+      <p class="p2">帮助中心</p>
+      <p class="p3">您的购物指南</p>
+    </div>
+    <div class="div1 clearfix">
+      <p>购物指南</p>
+      <a href="">免费注册</a>
+      <a href="">开通支付宝</a>
+      <a href="">支付宝充值</a>
+
+    </div>
+    <div class="div2 clearfix">
+      <p>天猫保障</p>
+      <a href="">发票保障</a>
+      <a href="">售后规则</a>
+      <a href="">缺货赔付</a>
+    </div>
+    <div class="div3 clearfix">
+      <p>支付方式</p>
+      <a href="">快捷支付</a>
+      <a href="">信用卡</a>
+      <a href="">余额宝</a>
+      <a href="">蚂蚁花呗</a>
+      <a href="">货到付款</a>
+    </div>
+    <div class="div4 clearfix">
+      <p>商家服务</p>
+      <a href="">天猫规则</a>
+      <a href="">商家入驻</a>
+      <a href="">商家中心</a>
+      <a href="">天猫智库</a>
+      <a href="">物理服务</a>
+      <a href="">喵言喵语</a>
+      <a href="">运营服务</a>
+    </div>
+    <div class="div5 clearfix">
+      <p>手机天猫</p>
+      <img src="img/div5.JPG" alt="">
+    </div>
+    <img class="img1" src="img/footer.JPG" alt="">
+  </footer>
+</div>
+ 
+<!-- 侧边导航 -->
+<div id="ver-nav">
+  <div class="com-nav " id="spe-com-nav">导航</div>
+  <ul>
+      <li class="com-nav com-nav1">天猫超市</li>
+      <li class="com-nav com-nav1">天猫国际</li>
+      <li class="com-nav com-nav1">美丽人生</li>
+      <li class="com-nav com-nav1">潮电酷玩</li>
+      <li class="com-nav com-nav1">居家生活</li>
+      <li class="com-nav com-nav1">打造爱巢</li>
+      <li class="com-nav com-nav1">户外出行</li>
+      <li class="com-nav com-nav1">猜你喜欢</li>
+      <li class="com-nav com-nav1" id="spe-com-top">顶部</li>
+  </ul>
+</div>
+<!-- 搜索框 -->
+ <div class="sousuo2">
+   <img src="img/tm.JPG" alt="">
+   <input class="ote2" type="text"  placeholder="搜索 天猫 商品\品牌\店铺">
+   <input class="obtn2" type="submit" value="搜索">
+ </div>
+</body>
+
+<script>
+
+/*垂直导航栏开始*/
+var arr = ["1560", "2250", "3035", "3720", "4530", "5200", "6000", "6723", "0"];
+//index()获得第一个匹配元素相对于其同级元素的index位置 所有兄弟节点中的索引
+// var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+ 
+var isMouseOver = true; //控制鼠标移上移下事件和click事件的冲突
+$(".com-nav1").hover(function () {
+    if ($(this).hasClass('active')) {//激活状态
+        isMouseOver = false;   //不执行hover
+    } else {
+        isMouseOver = true;  //否则执行hover
+        $(this).addClass('spe-com-nav' + $(this).index());
+    }
+}, function () {
+    if (isMouseOver) {
+        $(this).removeClass('spe-com-nav' + $(this).index());
+    }
+}).on('click', function () {
+    isMouseOver = false;//不执行hover
+    $(this).addClass('spe-com-nav' + $(this).index() + ' active')
+        .siblings().removeClass().siblings().addClass('com-nav com-nav1');
+    $(window).scrollTop(arr[$(this).index()]);
+});
+ 
+//页面滚动事件
+$(window).scroll(function (i) {
+    var windowHeight = $(window).scrollTop();
+    if (windowHeight > 800) {
+        $('#ver-nav').css({
+            display: 'block'
+        });
+        $(".sousuo2").css({
+           display: 'block'
+         });
+        $(arr).each(function (idx,ele) {
+            if(windowHeight>(ele-200)&&windowHeight<(arr[idx+1]-600)){
+                $('.com-nav1').eq(idx).addClass('spe-com-nav' +idx + ' active')
+                    .siblings().removeClass().siblings().addClass('com-nav com-nav1');
+            };
+            if(windowHeight>6200){
+                $('.com-nav1').eq(7).addClass('spe-com-nav7' + ' active')
+                    .siblings().removeClass().siblings().addClass('com-nav com-nav1');
+            }
+        });
+    } else {
+        $('#ver-nav').css({
+            display: 'none'
+        });
+        $(".sousuo2").css({
+           display: 'none'
+         });
+        $('.com-nav1').removeClass().addClass('com-nav com-nav1');
+    };
+});
+ 
+/*垂直导航栏结束*/
+
+// part2部分的图片
+$(function(){
+  $(".contentimg1 .img_content").mouseover(function(){          
+    $(".contentimg1 .img_content .mask").show();
+});
+  $(".contentimg1 .img_content").mouseout(function(){
+  $(".contentimg1 .img_content .mask").hide();
+});
+});
+
+$(function(){
+  $(".contentimg2 .img_content").mouseover(function(){          
+    $(".contentimg2 .img_content .mask").show();
+});
+  $(".contentimg2 .img_content").mouseout(function(){
+  $(".contentimg2 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg3 .img_content").mouseover(function(){          
+    $(".contentimg3 .img_content .mask").show();
+});
+  $(".contentimg3 .img_content").mouseout(function(){
+  $(".contentimg3 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg4 .img_content").mouseover(function(){          
+    $(".contentimg4 .img_content .mask").show();
+});
+  $(".contentimg4 .img_content").mouseout(function(){
+  $(".contentimg4 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg5 .img_content").mouseover(function(){          
+    $(".contentimg5 .img_content .mask").show();
+});
+  $(".contentimg5 .img_content").mouseout(function(){
+  $(".contentimg5 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg6 .img_content").mouseover(function(){          
+    $(".contentimg6 .img_content .mask").show();
+});
+  $(".contentimg6 .img_content").mouseout(function(){
+  $(".contentimg6 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg7 .img_content").mouseover(function(){          
+    $(".contentimg7 .img_content .mask").show();
+});
+  $(".contentimg7 .img_content").mouseout(function(){
+  $(".contentimg7 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg8 .img_content").mouseover(function(){          
+    $(".contentimg8 .img_content .mask").show();
+});
+  $(".contentimg8 .img_content").mouseout(function(){
+  $(".contentimg8 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg9 .img_content").mouseover(function(){          
+    $(".contentimg9 .img_content .mask").show();
+});
+  $(".contentimg9 .img_content").mouseout(function(){
+  $(".contentimg9 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg10 .img_content").mouseover(function(){          
+    $(".contentimg10 .img_content .mask").show();
+});
+  $(".contentimg10 .img_content").mouseout(function(){
+  $(".contentimg10 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg11 .img_content").mouseover(function(){          
+    $(".contentimg11 .img_content .mask").show();
+});
+  $(".contentimg11 .img_content").mouseout(function(){
+  $(".contentimg11 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg12 .img_content").mouseover(function(){          
+    $(".contentimg12 .img_content .mask").show();
+});
+  $(".contentimg12 .img_content").mouseout(function(){
+  $(".contentimg12 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg13 .img_content").mouseover(function(){          
+    $(".contentimg13 .img_content .mask").show();
+});
+  $(".contentimg13 .img_content").mouseout(function(){
+  $(".contentimg13 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg14 .img_content").mouseover(function(){          
+    $(".contentimg14 .img_content .mask").show();
+});
+  $(".contentimg14 .img_content").mouseout(function(){
+  $(".contentimg14 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg15 .img_content").mouseover(function(){          
+    $(".contentimg15 .img_content .mask").show();
+});
+  $(".contentimg15 .img_content").mouseout(function(){
+  $(".contentimg15 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg16 .img_content").mouseover(function(){          
+    $(".contentimg16 .img_content .mask").show();
+});
+  $(".contentimg16 .img_content").mouseout(function(){
+  $(".contentimg16 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg17 .img_content").mouseover(function(){          
+    $(".contentimg17 .img_content .mask").show();
+});
+  $(".contentimg17 .img_content").mouseout(function(){
+  $(".contentimg17 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg18 .img_content").mouseover(function(){          
+    $(".contentimg18 .img_content .mask").show();
+});
+  $(".contentimg18 .img_content").mouseout(function(){
+  $(".contentimg18 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg19 .img_content").mouseover(function(){          
+    $(".contentimg19 .img_content .mask").show();
+});
+  $(".contentimg19 .img_content").mouseout(function(){
+  $(".contentimg19 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg20 .img_content").mouseover(function(){          
+    $(".contentimg20 .img_content .mask").show();
+});
+  $(".contentimg20 .img_content").mouseout(function(){
+  $(".contentimg20 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg21 .img_content").mouseover(function(){          
+    $(".contentimg21 .img_content .mask").show();
+});
+  $(".contentimg21 .img_content").mouseout(function(){
+  $(".contentimg21 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg22 .img_content").mouseover(function(){          
+    $(".contentimg22 .img_content .mask").show();
+});
+  $(".contentimg22 .img_content").mouseout(function(){
+  $(".contentimg22 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg23 .img_content").mouseover(function(){          
+    $(".contentimg23 .img_content .mask").show();
+});
+  $(".contentimg23 .img_content").mouseout(function(){
+  $(".contentimg23 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg24 .img_content").mouseover(function(){          
+    $(".contentimg24 .img_content .mask").show();
+});
+  $(".contentimg24 .img_content").mouseout(function(){
+  $(".contentimg24 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg25 .img_content").mouseover(function(){          
+    $(".contentimg25 .img_content .mask").show();
+});
+  $(".contentimg25 .img_content").mouseout(function(){
+  $(".contentimg25 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg26 .img_content").mouseover(function(){          
+    $(".contentimg26 .img_content .mask").show();
+});
+  $(".contentimg26 .img_content").mouseout(function(){
+  $(".contentimg26 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg27 .img_content").mouseover(function(){          
+    $(".contentimg27 .img_content .mask").show();
+});
+  $(".contentimg27 .img_content").mouseout(function(){
+  $(".contentimg27 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg28 .img_content").mouseover(function(){          
+    $(".contentimg28 .img_content .mask").show();
+});
+  $(".contentimg28 .img_content").mouseout(function(){
+  $(".contentimg28 .img_content .mask").hide();
+});
+});
+$(function(){
+  $(".contentimg29 .img_content").mouseover(function(){          
+    $(".contentimg29 .img_content .mask").show();
+});
+  $(".contentimg29 .img_content").mouseout(function(){
+  $(".contentimg29 .img_content .mask").hide();
+});
+});
+
+</script>
+</html>
+
+
+
+  
+

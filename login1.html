@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+    .login{
+        background-image: url("img/loginpic.JPG");
+        background-repeat: no-repeat;
+        width:1349px ;
+        height: 601px;
+        position: relative;
+    }
+    .login .box{
+        width: 351px;
+        height: 409px;
+        background-color: #fff;
+        position: absolute;
+        right:150px ;
+        bottom: 100px;
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .box .name{
+        width: 270px;
+        height: 45px;
+        border: 1px #ccc solid;
+        margin-top: 20px;
+        position: relative;
+    }
+    #username{
+        padding: 0;
+        margin:0;
+        list-style: none;
+        width: 210px;
+        height: 40px;
+        border: none;
+        outline: none;
+        position: absolute;
+        left: 40px;
+        top: 0;
+    }
+    #userpass{
+        padding: 0;
+        margin:0;
+        list-style: none;
+        width: 210px;
+        height: 40px;
+        border: none;
+        outline: none;
+        position: absolute;
+        left: 40px;
+        top: 0;
+       
+    }
+    .box .password{
+        width: 270px;
+        height: 45px;
+        border: 1px #ccc solid;
+        margin-top: 20px;
+        position: relative;
+        
+    }
+    #btnLogin{
+        padding: 0;
+        margin:0;
+        list-style: none;
+        width: 270px;
+        height: 40px;
+        border: 0px;
+        background-color:#ff0036;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    #btnLogin:hover{
+        opacity: 0.8;
+    } 
+.box a{
+     float: right;
+     padding-right: 20px;
+     padding-top: 30px;
+     color: #6c6c6c; 
+     font-size: 12px;
+ }
+ .box a:hover{
+     color: #ff0036;
+ }
+ #msgBox{
+     
+     width:270px;
+     height: 30px;
+     border: 1px #ccc solid;
+     display: none;
+
+ }
+ .name img,.password img{
+     width: 40px;
+     height: 43px;
+     overflow: hidden;
+ }
+</style>
+</head>
+<body>
+    <img src="img/loginpic01.JPG" alt="">
+    <div class="login">
+        <div class="box clearfix">
+            <h3>密码登录</h3>
+            <div class="name clearfix">
+                <img src="img/username.JPG" alt="">
+                <input id="username" type="text" placeholder="会员名/手机/邮箱" />
+            </div>
+            <div class="password clearfix">
+                <img src="img/password.JPG" alt="">
+                <input id="userpass" type="password" placeholder="密码" />
+            </div>
+            <input id="btnLogin" type="button" value="登录" />
+           <a href="register1.html">免费注册</a>
+           <a href="#">忘记会员名</a>
+           <a href="#">忘记密码</a>
+           <div id="msgBox"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="js/cookieTools.js"></script>
